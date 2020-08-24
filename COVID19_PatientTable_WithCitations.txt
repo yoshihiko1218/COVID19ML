@@ -1,0 +1,926 @@
+Patient #	Paper Source (URL)	Title	Age	Sex	Region	Community Transmission?	Number of family members infected	neutrophil (x10^9/L)	neutrophil (level)	serum levels of white blood cell (x10^9/L)	serum levels of white blood cell (level)	lymphocytes	lymphocytes (level)	Plateletes	C-reactive protein levels ()	C-reactive protein levels (high/low)			Eosinophils	Red blood cells	Hemoglobin	Procalcitonin (ng/dL)	Duration of illness (days)	Days to death (NA if alive)	 before symptoms appear (incubation)	Number of CT scan published?	CT scan results (Pos/Neg)	Number of chest x-rays published?	RT-PCR results	X-ray results (Pos/Neg)	"Risk factors (diabetes, hypertension, gene alleles, etc.)"	Smoking?	Vaping (E-cig)?	Number of affected lobes	GGO (ground glass opacity)	Asymptomatic	Diarrhea?	Fever?	Coughing?	Shortness of breath?	Sore throat	Nausea/vomitting?	Time between admission and diagnosis	Pregnant	"If pregnant, did baby die?"	"If pregnant, premature delivery?"	body temperature	Hematocrit	Activated partial thromboplastin time	Fibrinogen (g/dl)	Urea (mmol/L)	Fatigue	Monocytes	Basophil	Cancer?	Thrombocytes
+1	https://www.kjronline.org/DOIx.php?id=10.3348/kjr.2020.0146	False-Negative Results of Real-Time Reverse-Transcriptase Polymerase Chain Reaction for Severe Acute Respiratory Syndrome Coronavirus 2: Role of Deep-Learning-Based CT Diagnosis and Insights from Two Cases	0.83	M	Beijing	No/Wuhan			normal		normal		high			high							NA			1	Pos	0		NA	NA																									
+2	https://www.kjronline.org/DOIx.php?id=10.3348/kjr.2020.0146	False-Negative Results of Real-Time Reverse-Transcriptase Polymerase Chain Reaction for Severe Acute Respiratory Syndrome Coronavirus 2: Role of Deep-Learning-Based CT Diagnosis and Insights from Two Cases	36	M	Beijing	No			high		high 		low			high							NA			1	Pos	0		NA	NA																									
+3	https://www.nejm.org/doi/10.1056/NEJMoa2001017	"A Novel Coronavirus from Patients with Pneumonia in China, 2019"	49	F	Wuhan	No/Wuhan						NA			NA								24			0	NA	0		NA	NA																									
+4	https://www.nejm.org/doi/10.1056/NEJMoa2001017	"A Novel Coronavirus from Patients with Pneumonia in China, 2020"	61	M	Wuhan	No/Wuhan																	13			0	NA	2		Pos	NA																									
+5	https://www.nejm.org/doi/10.1056/NEJMoa2001017	"A Novel Coronavirus from Patients with Pneumonia in China, 2021"	32	M	Wuhan	No/Wuhan																	20			0	NA	0		NA	NA																									
+6	https://www.cambridge.org/core/jourls/infection-control-and-hospital-epidemiology/article/sarscov2-enterocolitis-with-persisting-to-excrete-the-virus-for-about-two-weeks-after-recovering-from-diarrhea-a-case-report/00F50CC267C07AD33265BA54F3866FC3	SARS-CoV-2 enterocolitis with persisting to excrete the virus for approximately two weeks after recovering from diarrhea: A case report	81		Cruise ship	No						NA			NA								15			0	NA				"
+gastrectomy"			0	NA		Yes	No	No	No	Yes															
+7	https://onlinelibrary.wiley.com/doi/full/10.1002/ppul.24734	Insight into COVID?2019 for pediatricians	4	M	Zhengzhou 			1.93	normal			3.13	normal		11.2	high							NA				Pos	0		NA				2																						
+8	https://onlinelibrary.wiley.com/doi/full/10.1002/ppul.24734	Insight into COVID?2019 for pediatricians	4	F	Zhengzhou			3.31	normal	2.63	low													NA			Pos	0			NA			2																						
+9	https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000191	"Post-discharge surveillance and positive virus detection in two medical staff recovered from coronavirus disease 2019 (COVID-19), China, January to February 2020 "	45	M	Wuhan	Yes									NA								30	NA		6	Pos	NA						1				Yes	Yes																	
+10	http://rs.yiigle.com/yufabiao/1182603.htm	Detection of 2019-nCoV in the pathological paraffin embedded tissue			Huazhong	No																									lung cancer																									
+11	https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000191	"Post-discharge surveillance and positive virus detection in two medical staff recovered from coronavirus disease 2019 (COVID-19), China, January to February 2020 "	25	F	Wuhan	Yes						NA			NA								13	NA		3	neg	NA		NA	NA			0	NA		No	No	No	No	Yes	No														
+12	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7063273/	CT imaging of two cases of one family cluster 2019 novel coronavirus (2019-nCoV) pneumonia: inconsistency between clinical symptoms amelioration and imaging sign progression		M	Chongqing							0.87	low		8.3	normal										2	Pos 	0		Neg				1	Yes																					
+13	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7063273/	CT imaging of two cases of one family cluster 2019 novel coronavirus (2019-nCoV) pneumonia: inconsistency between clinical symptoms amelioration and imaging sign progression		F	Chongqing			1.73	normal			0.81	low		9.14	normal										2	Pos 	0		Neg	HepB			1	Yes																					
+14	https://link.springer.com/article/10.1007%2Fs11604-020-00945-1	CT image of novel coronavirus pneumonia: a case report	64	M	Kunming	No/Wuhan						NA			NA								NA			1	Pos 	0		Neg	NA			2	Yes																					
+15	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	28	F		No/Wuhan																																Yes	No	Yes	No			Yes	No	NA										
+16	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	24	F		No/Wuhan																																Yes	No	No	No			Yes	No	NA										
+17	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	33	F		Yes																																No	Yes	No	No			Yes	No	Yes										
+18	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	29	F		No/Wuhan																																Yes	No	No	No			Yes	No	NA										
+19	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	35	F		No/Wuhan																																Yes	No	No	No			Yes	No	Yes										
+20	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	31	F		No/Wuhan																																Yes	No	No	Yes			Yes	Yes	Yes										
+21	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	30	F		No/Wuhan																																No	No	Yes	No			Yes	No	Yes										
+22	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	36	F		No/Wuhan																																Yes	Yes	Yes	No			Yes	No	Yes										
+23	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	26	F		No/Wuhan																																Yes	No	No	No			Yes	No	Yes										
+24	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	32	F		No/Wuhan																																Yes	No	No	No			Yes	No	No 										
+25	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	30	F		No/Wuhan																																Yes	No	No	No			Yes	No	No 										
+26	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	22	F		No/Wuhan																																No	No	No	No			Yes	No	No 										
+27	https://www.jourlofinfection.com/article/S0163-4453(20)30109-2/fulltext	Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy	30	F		No/Wuhan																																Yes	No	No	No			Yes	No	No 										
+28	https://sypse.koreamed.org/DOIx.php?id=10.3346/jkms.2020.35.e61	"The First Case of 2019 Novel Coronavirus Pneumonia Imported into Korea from Wuhan, China: Implication for Infection Prevention and Control Measures"		F	Korea	No/Wuhan																	14	NA			Pos	6		Neg	Obese				Yes		Yes	Yes	Yes		Yes			No												
+29	thelancet.com/jourls/laninf/article/PIIS1473-3099(20)30158-4/fulltext	Covert COVID-19 and false-positive dengue serology in Singapore		M	Singapore	Yes						0.43	low	89																Neg								Yes	Yes																	
+30	thelancet.com/jourls/laninf/article/PIIS1473-3099(20)30158-4/fulltext	Covert COVID-19 and false-positive dengue serology in Singapore	57	F	Singapore	Yes						0.94	low	65																Neg								Yes	Yes	Yes																
+31	https://www.kjronline.org/DOIx.php?id=10.3348/kjr.2020.0146	False-Negative Results of Real-Time Reverse-Transcriptase Polymerase Chain Reaction for Severe Acute Respiratory Syndrome Coronavirus 2: Role of Deep-Learning-Based CT Diagnosis and Insights from Two Cases		M	Beijing	No/Wuhan			normal		normal 		high			high							NA																																	
+32	https://www.kjronline.org/DOIx.php?id=10.3348/kjr.2020.0146	False-Negative Results of Real-Time Reverse-Transcriptase Polymerase Chain Reaction for Severe Acute Respiratory Syndrome Coronavirus 2: Role of Deep-Learning-Based CT Diagnosis and Insights from Two Cases		M	Beijing	No			high		high 		low			high							NA																																	
+33	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	32	M	Shanghai	No		57.2	high	4.23	low	30.3	high													6	Pos				Fatty Liver							Yes	No				11													
+34	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	19	M	Shanghai	No		57	high	6.48	normal	30.6	high													6	Pos											Yes	Yes				6													
+35	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	63	M	Shanghai	No		50	high	4.4	low	24.5	high													9	Pos											Yes	Yes				1													
+36	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	63	F	Shanghai	No		93	high	6.84	normal	6.1	high													0	Pos	5										Yes	Yes				2													
+37	https://jkms.org/DOIx.php?id=10.3346/jkms.2020.35.e79	Case of the Index Patient Who Caused Tertiary Transmission of Coronavirus Disease 2019 in Korea: the Application of Lopinavir/Ritonavir for the Treatment of COVID-19 Pneumonia Monitored by Quantitative RT-PCR		M	Korea	No/Wuhan		NA				NA		NA	NA								NA	NA		0	NA	0		NA	None			NA	NA		No	Yes	Yes	Yes	NA			No	NA	NA										
+38	https://kjronline.org/DOIx.php?id=10.3348/kjr.2020.0078	Case of the Index Patient Who Caused Tertiary Transmission of Coronavirus Disease 2019 in Korea: the Application of Lopinavir/Ritonavir for the Treatment of COVID-19 Pneumonia Monitored by Quantitative RT-PCR		M	Jiangxi	No/Wuhan			high		normal		low	NA		high										1	Pos	0		NA	None																									
+39	https://kjronline.org/DOIx.php?id=10.3348/kjr.2020.0078	Case of the Index Patient Who Caused Tertiary Transmission of Coronavirus Disease 2019 in Korea: the Application of Lopinavir/Ritonavir for the Treatment of COVID-19 Pneumonia Monitored by Quantitative RT-PCR	39	M	Jiangxi	Yes			normal		normal		normal			normal																					No	Yes			Yes															
+40	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30159-6/fulltext	Outbreak investigation for COVID-19 in northern Vietnam			Vietnam	No/Wuhan																	11																																	
+41	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30159-6/fulltext	Outbreak investigation for COVID-19 in northern Vietnam			Vietnam	No/Wuhan																																																		
+42	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30159-6/fulltext	Outbreak investigation for COVID-19 in northern Vietnam	0.25	M	Vietnam	Yes																																	Yes																	
+43	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30159-6/fulltext	Outbreak investigation for COVID-19 in northern Vietnam	42																																																					
+45	https://www.sciencedirect.com/science/article/pii/S1684118220300608?via%3Dihub	A case of COVID-19 and pneumonia returning from Macau in Taiwan: Clinical course and anti-SARS-CoV-2 IgG dynamic	46	F	Taiwan	No				4.2	low	1.49	normal	233									24	NA	7	0		1		Pos	Hypertension			2			No	Yes	Yes	Yes	No			No												
+46	https://www.sciencedirect.com/science/article/pii/S168411822030061X?via%3Dihub	"A patient with SARS-CoV-2 infection during pregnancy in Qingdao, China"	31	F	Qingdao	Yes 																	16	NA	13	1	Pos	0						2	Yes		Yes	No	No 	No 	No			Yes	No	No										
+47	https://wwwnc.cdc.gov/eid/article/26/7/20-0445_article	Rhabdomyolysis as Potential Late Complication Associated with COVID-19	60	M	Wuhan			3.31	normal						111	high									6	0		1		Pos					Yes		No	Yes	Yes	No 	No			No 												
+48	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.75	F	Beijing	No/Wuhan	2																															Yes					1													
+49	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.917	F	Beijing	No/Wuhan	1																															Yes					1													
+50	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.66	F	Hainan	No/Wuhan	5																															No					3													
+51	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.83	M	Hainan	No/Wuhan	1																																				3													
+52	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.58	F	Guangdong	No/Wuhan	2																															Yes					1													
+53	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.156	F	Anhui	No/Wuhan	2																																Yes				1													
+54	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.25	F	Shangzhai	No/Wuhan	2																																Yes				1													
+55	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.306	F	Zheijiang	NA	1																															Yes					1													
+56	https://jamanetwork.com/journals/jama/fullarticle/2761659	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	0.5	M	Guizhou	No	1																															NA					2													
+57	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	34	M	Beijing	No/Wuhan									38.37	high														Neg								Yes																		
+58	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	34	M	Beijing	Return to Beijing from Wuhan 7 days ago									2.04	normal														Pos	diabetes							Yes																		
+59	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	43	M	Beijing	No/Wuhan									38.37	high														Pos							Yes	Yes														Yes				
+60	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	36	F	Beijing	No									2.2	normal																						Yes	Yes																	
+61	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	49	F	Beijing	Yes									16.58	high																						Yes														Yes				
+62	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	20	F	Beijing										0.85	normal																						Yes	Yes		Yes											Yes				
+63	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	45	M	Beijing	No/Wuhan									12.7	high																						Yes	Yes																	
+64	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	41	F	Beijing	No/Wuhan									0.8	normal																						No	Yes													Yes				
+65	http://rs.yiigle.com/yufabiao/1181338.htm	Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China	15	M	Beijing	No/Wuhan									34.64	high																						Yes									37.9									
+66	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	10	M							low																Pos												Yes																	
+67	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	7	M							low																								Yes			Yes																		
+68	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	10	F							normal																Pos								Yes			Yes																		
+69	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	10	F							low																																													
+70	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	4	F							low																								Yes																					
+71	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	6	F							normal																																													
+72	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	14	M							normal																								Yes			Yes																		
+73	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	5	F							normal																											Yes																		
+74	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	9	F							normal																																													
+75	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	12	F							normal																								Yes																					
+76	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	5	M							low																								Yes																					
+77	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	7	F							low																											Yes																		
+78	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	8	M							normal																								Yes																					
+79	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	7	F							low																																													
+80	https://www.ncbi.nlm.nih.gov/pubmed/32061200	[Analysis of CT features of 15 Children with 2019 novel coronavirus infection]	4	F							low																																													
+81	https://www.nejm.org/doi/full/10.1056/NEJMc2001621	Journey of a Thai Taxi Driver and Novel Coronavirus	51	M	Thailand	No																																Yes	Yes		Yes															
+82	https://www.nejm.org/doi/full/10.1056/NEJMc2001573	A Locally Transmitted Case of SARS-CoV-2 Infection in Taiwan	52	F	Taiwan	No/Wuhan	1																					1		Pos	diabetes							Yes			Yes															
+83	https://www.nejm.org/doi/full/10.1056/NEJMc2001573	A Locally Transmitted Case of SARS-CoV-2 Infection in Taiwan	50	M	Taiwan	Yes	1																					1		Pos																										
+84	https://pubs.rsna.org/doi/full/10.1148/radiol.2020200323	Pre- and Posttreatment Chest CT Findings: 2019 Novel Coronavirus (2019-nCoV) Pneumonia	46	F	Guangzhou	No/Wuhan			normal				normal			high									5	3	Pos											Yes																		
+85	http://rs.yiigle.com/yufabiao/1180144.htm	First case of severe childhood novel coronavirus pneumonia in China	1	M	Wuhan	No/Wuhan			low		normal		low													2	Pos	2		Pos								Yes		Yes																
+86	https://jamanetwork.com/journals/jama/fullarticle/2762028	Presumed Asymptomatic Carrier Transmission of COVID-19	20	F	Wuhan	No/Wuhan		3.62	normal	5.65	normal	1.55	normal		0.69	normal																																								
+87	https://jamanetwork.com/journals/jama/fullarticle/2762028	Presumed Asymptomatic Carrier Transmission of COVID-19		F	Anyang	No/Wuhan		6.89	normal	7.97	normal	0.53	low		217.17	high																																								
+88	https://jamanetwork.com/journals/jama/fullarticle/2762028	Presumed Asymptomatic Carrier Transmission of COVID-19		F	Anyang	No/Wuhan		2.64	normal	4.59	normal	1.65	normal		10.14	high																																								
+89	https://jamanetwork.com/journals/jama/fullarticle/2762028	Presumed Asymptomatic Carrier Transmission of COVID-19		F	Anyang	No/Wuhan		2.1	normal	3.29	low	0.91	low		66.07	high																																								
+90	https://jamanetwork.com/journals/jama/fullarticle/2762028	Presumed Asymptomatic Carrier Transmission of COVID-19		F	Anyang	No/Wuhan		2.89	normal	3.44	low	0.46	low		14.9	high																																								
+91	https://jamanetwork.com/journals/jama/fullarticle/2762028	Presumed Asymptomatic Carrier Transmission of COVID-19		M	Anyang	No/Wuhan		8.21	high	9.43	normal	0.69	low		202.03	high																																								
+92	https://www.ncbi.nlm.nih.gov/pubmed/32056407	Case of the Index Patient Who Caused Tertiary Transmission of COVID-19 Infection in Korea: the Application of Lopinavir/Ritonavir for the Treatment of COVID-19 Infected Pneumonia Monitored by Quantitative RT-PCR	54	M	Wuhan					7.2	normal			301	0.4	normal																						Yes																		
+93	https://academic.oup.com/qjmed/advance-article/doi/10.1093/qjmed/hcaa038/5740588	Changes of CT findings in a 2019 novel coronavirus (2019-nCoV) pneumonia patient	47	M	Chengdu	No/Wuhan	1			5.11	normal		high		22.5	high											Pos		Pos						Yes			Yes	Yes																	
+94	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	44	M	Zhuhai																																Yes	Yes																		
+95	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	56	M	Zhuhai																																	Yes				Yes														
+96	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	36	M	Zhuhai																																	Yes	Yes	Yes																
+97	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	69	M	Zhuhai																																	Yes		Yes																
+98	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	78	M	Zhuhai																																		Yes																	
+99	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	66	F	Zhuhai																																		Yes																	
+100	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	50	F	Zhuhai																																	Yes																		
+101	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	28	F	Zhuhai																																		Yes																	
+102	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	76	F	Zhuhai																																		Yes																	
+103	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	70	F	Zhuhai																																	Yes		Yes																
+104	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	65	M	Zhuhai																																		Yes																	
+105	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	58	F	Zhuhai																																	Yes	Yes																	
+106	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	60	M	Zhuhai																																	Yes	Yes																	
+107	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	60	M	Zhuhai																																	Yes	Yes	Yes																
+108	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	60	F	Zhuhai																																																			
+109	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	49	F	Zhuhai																																	Yes																		
+110	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	38	F	Zhuhai																																		Yes																	
+111	https://www.nejm.org/doi/full/10.1056/NEJMc2001737	SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients	26	M	Zhuhai																																																			
+112	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25711	The course of clinical diagnosis and treatment of a case infected with coronavirus disease 2019	47	M	Wuwei	No/Wuhan		7.8	normal	8.7	normal	0.4	low		84	high											Pos		Pos		"diabetes, hypertension"	Yes						Yes	Yes	No	No	Yes														
+113	https://www.researchgate.net/publication/339244532_First_cases_of_coronavirus_disease_2019_COVID-19_in_France_surveillance_investigations_and_control_measures_January_2020	"First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures, January 2020"	48	M	France	No/Wuhan																			3				Pos									Yes	Yes																	
+114	https://www.researchgate.net/publication/339244532_First_cases_of_coronavirus_disease_2019_COVID-19_in_France_surveillance_investigations_and_control_measures_January_2020	"First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures, January 2021"	31	M	China	No																	24						Pos									Yes	Yes																	
+115	https://www.researchgate.net/publication/339244532_First_cases_of_coronavirus_disease_2019_COVID-19_in_France_surveillance_investigations_and_control_measures_January_2020	"First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures, January 2022"	30	F	China	No																	24						Pos									Yes	Yes	Yes																
+116	https://www.nejm.org/doi/suppl/10.1056/NEJMc2001899/suppl_file/nejmc2001899_appendix.pdf	"Evidence of SARS-CoV-2 infection in returning travelers from Wuhan, China"	58	M	Germany	No/Wuhan																														Yes																				
+117	https://www.nejm.org/doi/suppl/10.1056/NEJMc2001899/suppl_file/nejmc2001899_appendix.pdf	"Evidence of SARS-CoV-2 infection in returning travelers from Wuhan, China"	44	F	Germany	No/Wuhan																														Yes																				
+118	https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiaa077/5739751	A Familial Cluster of Infection Associated With the 2019 Novel Coronavirus Indicating Possible Person-to-Person Transmission During the Incubation Period	88	M	Shanghai					7.16	normal	1.19	normal			normal							5	5			Pos				"hypertension, heart disease, and chronic obstructive pulmonary disease"							Yes	Yes																	
+119	https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiaa077/5739751	A Familial Cluster of Infection Associated With the 2019 Novel Coronavirus Indicating Possible Person-to-Person Transmission During the Incubation Period	75	F	Shanghai																																	Yes																		
+120	https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiaa077/5739751	A Familial Cluster of Infection Associated With the 2019 Novel Coronavirus Indicating Possible Person-to-Person Transmission During the Incubation Period	65	F	Wuhan	No						0.88	low																						Yes			Yes																		
+121	https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiaa077/5739751	A Familial Cluster of Infection Associated With the 2019 Novel Coronavirus Indicating Possible Person-to-Person Transmission During the Incubation Period	69	M	Wuhan	No																																Yes																		
+122	https://www.ncbi.nlm.nih.gov/pubmed/32065520	[First case of neonate infected with novel coronavirus pneumonia in China]	0.0465	M		Yes				7.66	normal		high	399	0.75												Pos										Yes	Yes	Yes	Yes		Yes														
+123	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7036338/#S1	Viral Load Kinetics of SARS-CoV-2 Infection in First Two Patients in Korea	35	F	Korea	No/Wuhan																							Pos						Yes		Yes	Yes	Yes	Yes																
+124	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7036338/#S1	Viral Load Kinetics of SARS-CoV-2 Infection in First Two Patients in Korea	55	M	Korea	No/Wuhan																													Yes				Yes		Yes															
+125	https://journals.sagepub.com/doi/full/10.1177/0846537120913033?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed	CT Imaging and Differential Diagnosis of COVID-19	52	M	Wuhan	No/Wuhan			high		normal		low		7.8	high											Pos							1	Yes		No	Yes	No	No																
+126	https://journals.sagepub.com/doi/full/10.1177/0846537120913033?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed	CT Imaging and Differential Diagnosis of COVID-20	63	M	Wuhan	No/Wuhan			normal		normal		normal		33.57	high											Pos							1	Yes			Yes	Yes	No																
+127	https://journals.sagepub.com/doi/full/10.1177/0846537120913033?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed	CT Imaging and Differential Diagnosis of COVID-21	48	M	Wuhan	No/Wuhan					normal		low		73.99	high											Pos							5	Yes				No	No																
+128	https://journals.sagepub.com/doi/full/10.1177/0846537120913033?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed	CT Imaging and Differential Diagnosis of COVID-22	47	M	Shenzhen	No/Wuhan			normal		normal		low		136.51	high											Pos							1	Yes			Yes	No	No																
+129	https://journals.sagepub.com/doi/full/10.1177/0846537120913033?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed	CT Imaging and Differential Diagnosis of COVID-23	60	F		Yes			normal		normal		normal														Neg				rheumatoid arthritis				Yes			No	No					No												
+130	https://journals.sagepub.com/doi/full/10.1177/0846537120913033?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed	CT Imaging and Differential Diagnosis of COVID-24	58	F	Wuhan	No/Wuhan																					Inconclusive				hypertension				Yes			No	No					No												
+131	https://pubs.rsna.org/doi/10.1148/radiol.2020200280	CT Manifestations of Two Cases of 2019 Novel Coronavirus (2019-nCoV) Pneumonia	45	F	Wuhan	No/Wuhan			high				low													4	Pos											Yes	Yes	Yes																
+132	https://pubs.rsna.org/doi/10.1148/radiol.2020200280	CT Manifestations of Two Cases of 2019 Novel Coronavirus (2019-nCoV) Pneumonia	32	M	Wuhan	No/Wuhan							high													3	Pos											Yes	Yes																	
+133	https://www.ncbi.nlm.nih.gov/pubmed/?term=32196707	"The clinical characteristics of pneumonia patients coinfected with 2019 novel coronavirus and influenza virus in Wuhan, China"	47	F				2.62	normal	3.87	low	0.88	low		1.8	high															influenza							Yes	Yes	Yes																
+134	https://www.ncbi.nlm.nih.gov/pubmed/?term=32196707	"The clinical characteristics of pneumonia patients coinfected with 2019 novel coronavirus and influenza virus in Wuhan, China"	50	M				3.67	normal	4.89	normal	0.81	low		21.5	high															influenza							Yes	Yes	Yes																
+135	https://www.ncbi.nlm.nih.gov/pubmed/?term=32196707	"The clinical characteristics of pneumonia patients coinfected with 2019 novel coronavirus and influenza virus in Wuhan, China"	66	F				3.05	normal	4.49	low	0.95	low		0.9	normal															influenza							Yes	Yes	Yes																
+136	https://www.ncbi.nlm.nih.gov/pubmed/?term=32196707	"The clinical characteristics of pneumonia patients coinfected with 2019 novel coronavirus and influenza virus in Wuhan, China"	39	M				2.03	normal	3.39	low	0.84	low		6.8	high															influenza							Yes	Yes	Yes																
+137	https://www.ncbi.nlm.nih.gov/pubmed/?term=32196707	"The clinical characteristics of pneumonia patients coinfected with 2019 novel coronavirus and influenza virus in Wuhan, China"	49	F				6.4	normal	9.12	normal	1.92	normal		9.5	high															influenza																									
+138	https://link.springer.com/article/10.1007/s12250-020-00203-8	Clinical Features and Treatment of 2019-nCov Pneumonia Patients in Wuhan: Report of A Couple Cases	38	M	Wuhan	No/Wuhan	1	0.99	low			0.89	low		35.43	high										4	Pos								Yes			Yes	Yes	Yes	Yes															
+139	https://link.springer.com/article/10.1007/s12250-020-00203-8	Clinical Features and Treatment of 2019-nCov Pneumonia Patients in Wuhan: Report of A Couple Cases	38	F	Wuhan	No/Wuhan	1	2.07	normal			0.55	low		19.94	high										4	Pos								Yes			Yes	Yes	Yes																
+140	https://pubs.rsna.org/doi/10.1148/radiol.2020200269	"Evolution of CT Manifestations in a Patient Recovered from 2019 Novel Coronavirus (2019-nCoV) Pneumonia in Wuhan, China"	42	M	Wuhan	No/Wuhan				2.88	low	0.9	low		158.95	high							25			4	Pos	1		Pos								Yes	Yes	Yes																
+141	https://www.ncbi.nlm.nih.gov/pubmed/32104884	Nepal's first case of COVID-19 and public health response	32	M	Nepal	No/Wuhan																																					12													
+142	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	32	M	Shanghai	No/Wuhan			normal		normal		normal												11	6		0										Yes	No																	
+143	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	19	M	Shanghai	No/Wuhan			normal		normal		normal												6	6		0										Yes	Yes																	
+144	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	63	M	Shanghai	Yes			normal		normal		normal												1	9		0										Yes	Yes																	
+145	https://www.jstage.jst.go.jp/article/bst/14/1/14_2020.01030/_pdf/-char/en	Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment	63	F	Shanghai	No/Wuhan			high		normal		low												2	0		5										Yes	Yes																	
+146	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7055038/	"Early transmission patterns of coronavirus disease 2019 (COVID-19) in travellers from Wuhan to Thailand, January 2020"	65	F	Wuhan	No/Wuhan			normal				normal															2		Pos							No	No	No	No	Yes															
+147	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7055038/	"Early transmission patterns of coronavirus disease 2019 (COVID-19) in travellers from Wuhan to Thailand, January 2021"	75	F	Wuhan	No/Wuhan																						2	Neg	Pos								Yes			Yes															
+148	https://link.springer.com/article/10.1007%2Fs00134-020-05976-w	Imaging changes in severe COVID-19 pneumonia	75	M	Zunyi	Unspecified																		NA		1	Pos				"hypertension, diabetes"																									
+149	https://journals.lww.com/thoracicimaging/Abstract/publishahead/Computed_Tomography_Manifestations_of_5_Cases_of.99443.aspx	Computed Tomography Manifestations of 5 Cases of the Novel Coronavirus Disease 2019 (COVID-19) Pneumonia From Patients Outside Wuhan	45	F		No				3.77	low	0.901	low		32.73	high										2	Pos							2	Yes			Yes	Yes	Yes			14	No												
+150	https://journals.lww.com/thoracicimaging/Abstract/publishahead/Computed_Tomography_Manifestations_of_5_Cases_of.99443.aspx	Computed Tomography Manifestations of 5 Cases of the Novel Coronavirus Disease 2019 (COVID-19) Pneumonia From Patients Outside Wuhan	62	F		Yes										normal									11	1	Pos				hypertension				Yes			No	Yes				11	No												
+151	https://journals.lww.com/thoracicimaging/Abstract/publishahead/Computed_Tomography_Manifestations_of_5_Cases_of.99443.aspx	Computed Tomography Manifestations of 5 Cases of the Novel Coronavirus Disease 2019 (COVID-19) Pneumonia From Patients Outside Wuhan	59	F		Yes						1.065	normal		24.61	high									5	2	Pos							1	Yes			Yes						No												
+152	https://journals.lww.com/thoracicimaging/Abstract/publishahead/Computed_Tomography_Manifestations_of_5_Cases_of.99443.aspx	Computed Tomography Manifestations of 5 Cases of the Novel Coronavirus Disease 2019 (COVID-19) Pneumonia From Patients Outside Wuhan	55	M											69.93	high										1	Pos								Yes			Yes					14													
+153	https://journals.lww.com/thoracicimaging/Abstract/publishahead/Computed_Tomography_Manifestations_of_5_Cases_of.99443.aspx	Computed Tomography Manifestations of 5 Cases of the Novel Coronavirus Disease 2019 (COVID-19) Pneumonia From Patients Outside Wuhan	41	W		No/Wuhan									21.27	high										2	Pos								Yes			Yes					6	No												
+154	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	25	F	Wuhan																																	Yes						Yes	No											
+155	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	35	F	Wuhan																																	Yes						Yes	Yes											
+156	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	35	F	Wuhan																																		Yes					Yes	Yes											
+157	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	30	F	Wuhan																																	Yes						Yes	No											
+158	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	30	F	Wuhan																																	No						Yes	No											
+159	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	30	F	Wuhan																																	Yes						Yes	No											
+160	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	30	F	Wuhan																																	Yes						Yes	No											
+161	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	29	F	Wuhan																																	Yes						Yes	6h											
+162	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	29	F	Wuhan																																	Yes						Yes	6h											
+163	http://tp.amegroups.com/article/view/35919/28274	Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia	34	F	Wuhan																																	No						Yes	No											
+164	https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajt.15874	Case report of COVID?19 in a kidney transplant recipient: Does immunosuppression alter the clinical presentation?	50	M						10.15	normal	1.8	normal	126	13.2 mg/dL	high									5						kidney transplant recipient																									
+165	https://www.jto.org/article/S1556-0864(20)30201-X/pdf	Exuberant Plasmocytosis in Bronchoalveolar Lavage Specimen of the First Patient Requiring Extracorporeal Membrane Oxygenation for SARS-CoV-2 in Europe	66	M	Italy																					1	Pos	2		Neg					Yes		No	Yes	No	No	No															
+166	https://onlinelibrary.wiley.com/doi/pdf/10.1002/jmv.25783	Clinical features and treatment of COVID?19 patients in northeast Chongqing	52	M		No/Wuhan			high		high		high																		diabetes																									
+167	https://www.ijidonline.com/article/S1201-9712(20)30146-6/pdf	Transmission of COVID-19 in the terminal stages of the incubation period: A familial cluster																																																						
+168	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	33	F	Wuhan	Yes				6.15	low	1.59E+00	normal			High										1	Pos				influenza				Yes		No	No	Yes	No	No			Yes	No											
+169	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	27	F	Wuhan	Yes				5.07	low	5.60E-01	low			High										1	Pos								No		No	Yes	Yes	No	No			Yes	No											
+170	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	40	F	Wuhan	Yes				8.78	low	4.60E-01	low			High										1	Pos				hypertension				Yes		No	No	Yes	No	No			Yes	Yes											
+171	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	26	F	Wuhan	Yes				7.63	low	2.83E+00	normal			normal										1	Pos				Pre-eclampsia				Yes		Yes	Yes	No	Yes	No			Yes	Yes											
+172	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	26	F	Wuhan	Yes				9.34	low	6.90E-01	low			High										1	Pos				Fetal distress				Yes		No	Yes	No	No	No			Yes	No											
+173	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	26	F	Wuhan	Yes				5.57	low	6.60E-01	low			High										1	Pos				None				No		No	Yes	Yes	No	Yes			Yes	Yes											
+174	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	29	F	Wuhan	Yes				10.6	high	8.70E-01	low			NA										1	Neg				PROM				No		No	Yes	No	No	Yes			Yes	Yes											
+175	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	28	F	Wuhan	Yes				9.96	high	1.53E+00	normal			normal										1	Pos				Fetal distress				Yes		No	Yes	No	No	No			Yes	No											
+176	https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930360-3	Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records	34	F	Wuhan	Yes				7.08	low	1.47E+00	normal			High										1	Pos				PROM				Yes		No	Yes	No	No	No			Yes	No											
+177	https://www.sciencedirect.com/science/article/pii/S0923753420360804?via%3Dihub	Atypical lung feature on chest CT in a lung adenocarcinoma cancer patient infected with COVID-19	46	F	Zhengzhou	No		27.91	high	36.07	high	1.99E+00	normal		67.62	high									10	2	Neg				lung cancer				Yes			Yes		Yes		Yes														
+178	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa227/5800047	Diagnosis and Management of First Case of COVID-19 in Canada: Lessons Applied From SARS-CoV-1	56	M	Toronto	No																								Pos								Yes	Yes																	
+179	journalofinfection.com/article/S0163-4453(20)30104-3/fulltext	Clinical and CT imaging features of 2019 novel coronavirus disease (COVID-19)	27	F	Guangdong	No/Wuhan		2.55	normal	3.77	low	9.80E-01	low		5.78	normal			1.00E-02							16	Pos											Yes																		
+180	journalofinfection.com/article/S0163-4453(20)30104-3/fulltext	Clinical and CT imaging features of 2019 novel coronavirus disease (COVID-19)	32	F	Guangdong	No/Wuhan		2.68	normal	4.57	normal	1.44E+00	normal		8.88	normal										2	Pos											Yes																		
+181	journalofinfection.com/article/S0163-4453(20)30104-3/fulltext	Clinical and CT imaging features of 2019 novel coronavirus disease (COVID-19)	56	F	Guangdong	No		2.22	normal	3.4	low	8.00E-01	low		1.47	normal			1.00E-02							2	Pos											Yes																		
+182	journalofinfection.com/article/S0163-4453(20)30104-3/fulltext	Clinical and CT imaging features of 2019 novel coronavirus disease (COVID-19)	32	F	Guangdong	No		3.45	normal	5.69	normal	1.42E+00	normal		6.4	normal			2.00E-01							1	Pos											Yes																		
+183	journalofinfection.com/article/S0163-4453(20)30104-3/fulltext	Clinical and CT imaging features of 2019 novel coronavirus disease (COVID-19)	63	F	Guangdong	No/Wuhan		5.3	normal	6.87	normal	1.01E+00	normal		1.6	normal			1.20E-01							1	Pos											Yes																		
+184	journalofinfection.com/article/S0163-4453(20)30104-3/fulltext	Clinical and CT imaging features of 2019 novel coronavirus disease (COVID-19)	54	F	Guangdong	Yes		3.13	normal	4.08	low	5.50E-01	low		2.85	normal			1.00E-02							2	Pos											Yes																		
+185	https://www.ijidonline.com/article/S1201-9712(20)30122-3/pdf	Recurrence of positive SARS-CoV-2 RNA in COVID-19: A case report	46	F	Guangdong	No																				2	Pos								Yes			Yes	Yes		Yes															
+186	http://rs.yiigle.com/yufabiao/1184352.htm	Biological characters analysis of COVID-19 patient accompanied with aplastic anemia	48	M	Wuhan					2.88	low	7.24E-01	low		26.1	high							29			0	Pos				diabetes				Yes			Yes	Yes			No	1													
+187	https://www.journalofhospitalinfection.com/article/S0195-6701(20)30098-0/fulltext	Effective strategies to prevent coronavirus disease-2019 (COVID-19) outbreak in hospital	59	M	Taiwan	No/Wuhan																																																		
+188	https://pubs.rsna.org/doi/10.1148/radiol.2020200770	FDG PET/CT of COVID-19	55	M	Wuhan	No/Wuhan																	30			4	Neg					Yes			Yes			Yes	Yes																	
+189	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25749	The transmission and diagnosis of 2019 novel coronavirus infection disease (COVID?19): A Chinese perspective	30	M	Hangzhou	No																														Yes																				
+190	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25749	The transmission and diagnosis of 2019 novel coronavirus infection disease (COVID?19): A Chinese perspective	60	M	Henan	No																														Yes																				
+191	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25749	The transmission and diagnosis of 2019 novel coronavirus infection disease (COVID?19): A Chinese perspective	23	F	Shandong	No																														Yes																				
+192	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25749	The transmission and diagnosis of 2019 novel coronavirus infection disease (COVID?19): A Chinese perspective	76	F	Shandong	No																														Yes																				
+193	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25749	The transmission and diagnosis of 2019 novel coronavirus infection disease (COVID?19): A Chinese perspective	41	F	Heilongjiang	No																														Yes																				
+194	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25749	The transmission and diagnosis of 2019 novel coronavirus infection disease (COVID?19): A Chinese perspective	36	M	Sichuan	No																														Yes																				
+195	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25749	The transmission and diagnosis of 2019 novel coronavirus infection disease (COVID?19): A Chinese perspective	35	M'	Hunan	No	7																													Yes																				
+196	https://jcm.asm.org/content/jcm/early/2020/02/20/JCM.00297-20.full.pdf	Negative Nasopharyngeal and Oropharyngeal Swab Does Not Rule Out COVID -19	28	M	Thailand 	No/Wuhan																																Yes	Yes		Yes															
+197	https://bjanaesthesia.org/article/S0007-0912(20)30131-8/fulltext	Emergency Caesarean delivery in a patient with confirmed COVID-19 under spinal anaesthesia	27	F	0	Yes		4.48	normal	5.31	normal	0.74	low		99.6	high										1	Pos		Pos						Yes				Yes					Yes	Yes											
+198	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	8	M				0.78	low	1.65	low	0.69	low		6.48	normal							28			1	Pos	1	Pos	Pos					Yes			Yes	Yes				12													
+199	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	0.83	F		Yes		11.63	high	14.95	high	1.96	normal		57.9	high							20		7	1	Pos	1	Pos	Pos									Yes			Yes	3	No												
+200	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	1	M				5.7	normal	9.19	normal	2.7	normal		103	high							24			1	Pos	1	Pos	Pos							Yes	Yes				Yes	15													
+201	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	0.167	M		Yes		1.27	low	8.32	normal	6.41	high		0.75	normal							20		10	1	Pos	1	Pos	Pos									Yes			Yes	6													
+202	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	2	M				3.5	normal	8.8	normal	3.6	normal		27.02	high							16			1	Pos	1	Pos	Pos								Yes	Yes			Yes	9													
+203	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	15	F		Yes		5.9	normal	10.6	normal	4.04	normal		1	normal							19			1	Pos	1	Pos	Pos							Yes	Yes	Yes				12	No												
+204	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	13	M		Yes		1.9	normal	3.85	low	1.7	normal		9.9	normal							12		5	1	Pos	1	Pos	Pos							Yes	Yes	Yes				5													
+205	https://link.springer.com/content/pdf/10.1007/s12519-020-00354-4.pdf	Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center’s observational study	13	M		Yes		3.8	normal	7.6	normal	2.8	normal		0.5	normal							9		5	1	Pos	1	Pos	Pos								Yes	Yes				0													
+206	https://www.clinicalimaging.org/article/S0899-7071(20)30056-5/fulltext	Asymptomatic novel coronavirus pneumonia patient outside Wuhan: The value of CT images in the course of the disease	61	M	Lanzhou	No					normal		normal		1.29	normal										4	Neg							2	Yes	Yes	No	No	No	Yes																
+207	https://www.journalofinfection.com/article/S0163-4453(20)30102-X/fulltext	Novel coronavirus disease (Covid-19): The first two patients in the UK with person to person transmission	50	F	UK	No		2.4	normal	3.4	low	0.6	low		15	high																				No		Yes	Yes		Yes			No												
+208	https://www.journalofinfection.com/article/S0163-4453(20)30102-X/fulltext	Novel coronavirus disease (Covid-19): The first two patients in the UK with person to person transmission	23	M	UK	No		8.67	high	10.5	normal	1.1	normal		40	high									2																															
+209	https://watermark.silverchair.com/ciaa200.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAmswggJnBgkqhkiG9w0BBwagggJYMIICVAIBADCCAk0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhaPnrhqfU9q5-5_uAgEQgIICHn7l89L1nrDxzhcDbh0skiB5RTGw_SLzOwK80sE8Vib3SRUJtZsknqgO0_LBbA-7tkefeR4B6LIIBFUpdZnNwUmMRPkod5_UgVV_64WJKJNoxZ82yEzq9Yedq3c7jJCag0TxkpdwoM32JDqVi3A4LTB2Ld8OYOUCzkfisvpyLnn7x7Z7f8WvyTQsGf7HObn2S-nDE_TkA0SYrGpI1kIAp-jr372Y26ydma1bV8_6TXgdp8y2S7N3wfqLfmzDSzrY6So-CyKUHiFyONxh0cua3ZguHtWEy4PiZk6Rh86RGHw_QATx92Rs8yD3Qsp1eWczQE8mFNmsf9UZAa9g9DTKla951Oz1VeARWUBTtT2ZnlCrovEHjWn15_pit-wS7KmKP1WCzA8ieHrvBuR4E3jyJHDHq8VakXTHaMNUHV82I5S8yWuc9JR2fgPL1tscICdAZ9WhXp8hYJ5N2B0AW2nIiiHMv1LMsY6-Wc0HCYv8bTqQWXVX26nmyZytYzcU6R-gMrnkj4VboVK80RB-_cqmkbTAumzP5L4kg0Gl5D7CEptRq0xVGW3chx75Y0bpHme0fu9AyHVuSBzr3PAOK7irC7paE72V7Aeggu1h6b6v5tNm8Q7SEB2Z0nSJQVqpwOxrppE3IqtijnHW4fk9D5evvkAEMJLRKUcNMgLs5X9EFWkHhjLwdOVgCLoBDuZVqG4uTLWeBjMlf8e6LUuBZgfH	A Case of 2019 Novel Coronavirus in a Pregnant Woman With Preterm Delivery	28	F	Suzhou	No/Wuhan		9.4	high	10.6	normal	0.86	low		19.6	high									21	1	Pos		Pos						Yes			Yes						Yes	Yes											
+210	https://wwwnc.cdc.gov/eid/article/26/6/20-0452_article	"COVID-19 in 2 Persons with Mild Upper Respiratory Tract Symptoms on a Cruise Ship, Japan"	35	F	Japan	Yes																							Pos										Yes		Yes		6	No												
+211	https://wwwnc.cdc.gov/eid/article/26/6/20-0452_article	"COVID-19 in 2 Persons with Mild Upper Respiratory Tract Symptoms on a Cruise Ship, Japan"	27	M	Japan	Yes																							Pos									Yes	Yes		Yes		5													
+212	http://rs.yiigle.com/yufabiao/1179577.htm	First case of 2019 novel coronavirus infection in children in Shanghai	7	M	Shanghai	No/Wuhan	2	0.702	low	16	high	0.229	low	138	15	high							6						pos 									Yes 	Yes		Yes															
+213	https://gut.bmj.com/content/early/2020/03/22/gutjnl-2020-320891	SARS-CoV-2 induced diarrhoea as onset symptom in patient with COVID-19	22	M	Weihai	No/Wuhan																	18			2	Pos		Pos								Yes	Yes																		
+214	https://www.thieme-connect.com/products/ejournals/html/10.1055/a-1138-8783	"CT appearance of severe, laboratory-proven coronavirus disease 2019 (COVID-19) in a Caucasian patient in Berlin, Germany"	61	M	Berlin							0.65	low		62.6	high										1	Pos		Pos 		hypertension				Yes			Yes	Yes	No																
+215	https://www.jkms.org/Synapse/Data/PDFData/0063JKMS/jkms-35-e124.pdf	First Pediatric Case of Coronavirus Disease 2019 in Korea	10	F	Korea	Yes	2			4.08	low			251	0.4	normal									13	1	Pos	1	Pos	Neg				1	Yes			Yes																		
+216	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	46	M	Zhejiang																		8						Pos									Yes									37.6									
+217	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	62	M	Zhejiang																		10						Pos									Yes									36.2									
+218	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	63	F	Zhejiang																		5						Pos									Yes									37.3									
+219	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	30	F	Zhejiang																		8						Pos									Yes									36.5									
+220	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	45	F	Zhejiang																		14						Pos									Yes									36.7									
+221	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	62	M	Zhejiang																		16						Pos									Yes									36.6									
+222	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	50	M	Zhejiang																		11						Pos									Yes									36.5									
+223	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	38	F	Zhejiang																		6						Pos									Yes									37									
+224	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	30	M	Zhejiang																		4						Pos									Yes									39.5									
+225	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	53	F	Zhejiang																		3						Pos									Yes									37.4									
+226	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	51	M	Zhejiang																		7						Pos									Yes									37.1									
+227	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	70	M	Zhejiang																		6						Pos									Yes									36.7									
+228	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	65	F	Zhejiang																		6						Pos									Yes									37									
+229	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	51	M	Zhejiang																		8						Pos									Yes									36.5									
+230	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	45	F	Zhejiang																		14						Pos									Yes									36.6									
+231	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	64	F	Zhejiang																		7						Pos									Yes									36.7									
+232	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	13	M	Zhejiang																		6						Pos									Yes									36.2									
+233	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	55	M	Zhejiang																		10						Pos									Yes									36.7									
+234	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	48	M	Zhejiang																		7						Pos									Yes									36.5									
+235	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	57	M	Zhejiang																		2						Pos									Yes									36.8									
+236	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	53	M	Zhejiang																		3						Pos									Yes									36.5									
+237	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	60	M	Zhejiang																		1						Pos									Yes									37.6									
+238	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	72	M	Zhejiang																		5						Pos									Yes									36.4									
+239	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	51	M	Zhejiang																		8						Pos									Yes									37.1									
+240	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	83	M	Zhejiang																		3						Pos									Yes									36.5									
+241	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	74	M	Zhejiang																		12						Pos									Yes									36.9									
+242	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	65	F	Zhejiang																		7						Pos									Yes									36.9									
+243	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	62	M	Zhejiang																		11						Pos									Yes									37.9									
+244	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	51	M	Zhejiang																		11						Pos									Yes									37.2									
+245	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25725	Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS?CoV?2 infection	66	M	Zhejiang																		11						Pos									Yes									37.8									
+246	https://www.ijidonline.com/article/S1201-9712(20)30146-6/pdf	Transmission of COVID-19 in the terminal stages of the incubation period: A familial cluster	51	M	Zhoushan	Yes	4																			1	Pos		Pos						Yes	Yes																				
+247	https://www.ijidonline.com/article/S1201-9712(20)30146-6/pdf	Transmission of COVID-19 in the terminal stages of the incubation period: A familial cluster			Zhoushan	Yes																				1	Pos								Yes																					
+248	https://www.ijidonline.com/article/S1201-9712(20)30146-6/pdf	Transmission of COVID-19 in the terminal stages of the incubation period: A familial cluster			Zhoushan	Yes																				1	Pos								Yes				Yes																	
+249	https://www.ijidonline.com/article/S1201-9712(20)30146-6/pdf	Transmission of COVID-19 in the terminal stages of the incubation period: A familial cluster			Zhoushan	Yes																				1	Pos								Yes				Yes																	
+250	https://www.ijidonline.com/article/S1201-9712(20)30146-6/pdf	Transmission of COVID-19 in the terminal stages of the incubation period: A familial cluster	7	F	Zhoushan	Yes																				1	Neg									Yes																				
+251	https://www.kjronline.org/Synapse/Data/PDFData/0068KJR/kjr-21-501.pdf	2019 Novel Coronavirus (COVID-19) Pneumonia: Serial Computed Tomography Findings	40	F 						4.017	low		normal																																											
+252	https://www.kjronline.org/Synapse/Data/PDFData/0068KJR/kjr-21-501.pdf	2020 Novel Coronavirus (COVID-19) Pneumonia: Serial Computed Tomography Findings	40	F 						3.39	low		normal		8	normal																																								
+253	https://www.europeanreview.org/wp/wp-content/uploads/2776-2780.pdf	Point-of-Care Lung Ultrasound findings in novel coronavirus disease-19 pnemoniae: a case report and potential applications during COVID-19 outbreak	52	M																								1		Neg								Yes	Yes	Yes																
+254	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2019	26	M	Wuhan	Yes																	4			1	Neg		Pos							Yes																				
+255	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2020	22	F	Wuhan																					3	Neg 		Pos										Yes		Yes		6	No												
+256	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2021	42	F	Wuhan						Normal 	0.81	low		49.9	high							37			3	Neg		Neg								Yes	Yes	Yes		Yes	Yes		No			38.7									
+257	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2022	44	M	Wuhan			1.47	low	3.37	low															2	Pos		Pos						Yes	Yes			Yes				8													
+258	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2023	46	F	Wuhan			1.2	low	1.92	low	0.47	low										15			2	Pos		Pos						Yes		Yes	Yes	Yes		Yes		7	No												
+259	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2024	69	F	Wuhan			10.67	high	11.73	high	0.51	low	73												2	Pos	1		Pos	heart disease				Yes				Yes		Yes			No												
+260	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2025	3	M	Wuhan																					1	Pos		Pos		pneumonia 			1					Yes																	
+261	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2026	2	M	Wuhan																		9			1	Pos		Pos		Atopic dermatitis and repetitive respiratory infections							Yes	Yes								39.2									
+262	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2027	44	F	Wuhan			1.57	normal	3.19	low				29.2	high							22			1	Pos		Pos		chronic spontaneous urticaria 				Yes								5	No												
+263	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2028	43	F	Wuhan																					2	Pos		Pos						Yes		Yes	Yes	Yes					No												
+264	https://onlinelibrary.wiley.com/doi/pdf/10.1111/all.14289	Eleven faces of coronavirus disease 2029	62	M	Wuhan			7.53	normal			0.27	low			high							18			1	Pos		Neg		hypertension and COPD								Yes																	
+265	https://www.tandfonline.com/doi/full/10.1080/22221751.2020.1725399	RNA based mNGS approach identifies a novel human coronavirus from two individual pneumonia cases in 2019	39	M	Wuhan	No		3.58	normal	5.23	normal	1.32	normal	170									33			1	Pos	1		Pos					Yes			Yes	Yes	Yes				No												
+266	https://www.tandfonline.com/doi/full/10.1080/22221751.2020.1725399	RNA based mNGS approach identifies a novel human coronavirus from two individual pneumonia cases in 2020	21	F	Wuhan	Yes		1.92	normal	2.89	low	0.46	low	117									29			1	Pos	1		Pos								Yes	Yes					No												
+267	https://www.nature.com/articles/s41586-020-2008-3	A new coronavirus associated with human respiratory disease in China	41	M	Wuhan	No					normal	9	high		41.4	high										4	Pos	1		Pos								Yes	Yes	Yes			6													
+268	http://rs.yiigle.com/yufabiao/1180186.htm	2019-novel coronavirus infection in a three-month-old baby	0.299	F	Hubei		2	0.446	low	9.68	normal	0.443	low	4.94E+02	5.66	normal					113	73				3	Pos	1		Pos																										
+270	https://wwwnc.cdc.gov/eid/article/26/6/20-0287_article	"Lack of Vertical Transmission of Severe Acute Respiratory Syndrome Coronavirus 2, China"	30	F	Hangzhou	No																																	Yes					Yes			37.2									
+271	https://www.sciencedirect.com/science/article/pii/S1473309920301560?via%3Dihub	COVID-19 with spontaneous pneumomediastinum	38	M	Wuhan	No		7.55	normal	10.06	normal	1.49	normal		5.6	normal							25			1	Pos		Pos		pneumomediastinum and subcutaneous emphysema				Yes			Yes	Yes	Yes			10				38.5									
+272	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	58	F	Zhejiang	Yes	8																		5				Pos									Yes																		
+273	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	60	M	Zhejiang	Yes	8																						Pos							Yes																				
+274	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	32	F	Zhejiang	Yes	8																		6				Pos									Yes	Yes																	
+275	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	32	M	Zhejiang	Yes	8																		6				Pos									Yes																		
+276	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	13	F	Zhejiang	Yes	8																						Pos							Yes																				
+277	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	57	F	Zhejiang	Yes	8																		8				Pos									Yes																		
+278	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	57	M	Zhejiang	Yes	8																		12				Pos																											
+279	https://academic.oup.com/cid/article/71/15/861/5810900	COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China	76	F	Zhejiang	Yes	8																		11				Pos										Yes																	
+280	https://www.nejm.org/doi/full/10.1056/NEJMoa2001191	First Case of 2019 Novel Coronavirus in the United States	35	M	Washington	Yes																	12					4	Pos	Pos								Yes	Yes				4				37.2									
+281	https://journals.lww.com/cmj/Abstract/publishahead/Identification_of_a_novel_coronavirus_causing.99423.aspx	Identification of a novel coronavirus causing severe pneumonia in human: a descriptive study	65	M	Wuhan	No		11.6	high	11.9	high	0.2	low	92									9							Pos		No			Yes			Yes	Yes								39.3									
+282	https://journals.lww.com/cmj/Abstract/publishahead/Identification_of_a_novel_coronavirus_causing.99423.aspx	Identification of a novel coronavirus causing severe pneumonia in human: a descriptive study	49	F	Wuhan	No		7.6	normal	8.3	normal	0.44	low	273									8							Pos		No			Yes			Yes	Yes								38.5									
+283	https://journals.lww.com/cmj/Abstract/publishahead/Identification_of_a_novel_coronavirus_causing.99423.aspx	Identification of a novel coronavirus causing severe pneumonia in human: a descriptive study	52	F	Wuhan	Yes		2	normal	2.4	low	0.3	low	140									8							Pos		No			Yes			Yes	Yes								37.5									
+284	https://journals.lww.com/cmj/Abstract/publishahead/Identification_of_a_novel_coronavirus_causing.99423.aspx	Identification of a novel coronavirus causing severe pneumonia in human: a descriptive study	41	M	Wuhan	Yes		5	normal	6.6	normal	0.98	low	129									14							Pos	hypertension	No			Yes			Yes	Yes								39									
+285	https://journals.lww.com/cmj/Abstract/publishahead/Identification_of_a_novel_coronavirus_causing.99423.aspx	Identification of a novel coronavirus causing severe pneumonia in human: a descriptive study	61	M	Wuhan	No		16.2	high	17.9	high	1.2	normal	315									32							Pos	"Chronic liver dieseas, myxoma of abdominal cavity"	No			Yes			Yes	Yes																	
+286	https://reader.elsevier.com/reader/sd/pii/S0924857920300984?token=7F352AC7573334234C5140D309080D576E7DC2DE4C67EA6C40B18AA65F102B016700AD4FC1A75946B021C41E521FE60D	Review of the 2019 novel coronavirus (SARS-CoV-2) based on current evidence	64	F																						1	Pos							2	Yes																					
+287	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30174-2/fulltext	SARS-CoV-2 RNA more readily detected in induced sputum than in throat swabs of convalescent COVID-19 patients	54	M	Guangdong					6.62	normal	2.02	normal		26.6	high															diabetes							Yes																		
+288	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30174-2/fulltext	SARS-CoV-2 RNA more readily detected in induced sputum than in throat swabs of convalescent COVID-19 patients	42	F	Guangdong					4.01	low	0.71	low		2.58	normal																						Yes																		
+289	https://www.nejm.org/doi/full/10.1056/NEJMc2001468	Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany	33	M	Germany	Yes																	3						Pos									Yes	Yes								39.1									
+290	https://www.nejm.org/doi/full/10.1056/NEJMc2001468	Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany			Germany	Yes																							Pos																											
+291	https://www.nejm.org/doi/full/10.1056/NEJMc2001468	Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany			Germany	No																							Pos																											
+292	https://www.nejm.org/doi/full/10.1056/NEJMc2001468	Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany			Germany	No																							Pos																											
+293	https://www.nejm.org/doi/full/10.1056/NEJMc2001468	Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany	65	M	Wuhan	Yes	1																4					4		Pos	"diabetes, coronary eart disease, lung cancer"							Yes																		
+294	https://www.nejm.org/doi/full/10.1056/NEJMc2001468	Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany	27	M	Long An	Yes																	3		3				Pos	Neg							Yes	Yes	Yes			Yes														
+295	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext	A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster	65	F	Wuhan		6	4	normal	4.8	normal	0.6	low	157	55.6	high					13.1				5						"hypertension, begin tumor (removed)"							Yes	Yes				7				39									
+296	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext	A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster	66	M	Wuhan		6	3.2	normal	4.2	low	0.7	low	118	34.2	high					15.6				6						hypertention							Yes	Yes				6				39									
+297	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext	A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster	37	F	Wuhan		6	3.1	normal	5.6	normal	2.2	normal	224	0.5	normal					15				4												Yes	Yes			Yes		9				36.2									
+298	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext	A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster	36	M	Wuhan		6	8.1	high	11.4	high	2.7	normal	196	4.9	normal					15.2				3						Chronic sinusitis						Yes	Yes	Yes				10				36.5									
+299	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext	A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster	10	M	Wuhan		6	3.2	normal	6.5	normal	2.8	normal	197	0.2	normal					14.6																										36.5									
+300	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext	A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster	63	F	Wuhan		6	2.7	normal	4.3	low	1.2	normal	205	44.9	high					13										Diabetes							Yes	Yes				7				39									
+301	https://www.ijidonline.com/article/S1201-9712(20)30126-0/pdf	SARS-CoV-2 turned positive in a discharged patient with COVID-19 arouses concern regarding the present standards for discharge	54	M	Wuhan	Yes																	16		5									2	Yes			Yes									38.3									
+302	https://www.kjronline.org/DOIx.php?id=10.3348/kjr.2020.0181	2019 Novel Coronavirus (COVID-19) Pneumonia with Hemoptysis as the Initial Symptom: CT and Clinical Features	57	M	Hunan	Yes		NA				NA		NA	NA											4	Pos								Yes																					
+303	https://www.ncbi.nlm.nih.gov/pubmed/?term=32163542	Histopathologic Changes and SARS-CoV-2 Immunostaining in the Lung of a Patient With COVID-19	72	M																				21		1	Pos		Pos		diabetes and hypertension 				Yes			Yes	Yes				6													
+304	https://wwwnc.cdc.gov/eid/article/26/6/20-0412_article	"Indirect Virus Transmission in Cluster of COVID-19 Cases, Wenzhou, China, 2020"	30	F		No/Wuhan																			28																															
+310	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2019	54	M				9	high	10.1	normal	0.6	low		111	high						0.09				3	Pos		Pos			yes			Yes		Yes	Yes	Yes																	
+311	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2020	25	F				1.4	low	2.3	low	0.8	low		1.8	normal						0.02				3	Pos		Pos						Yes		Yes	Yes	Yes																	
+312	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2021	47	M						9.6	normal	1	low		84	high						0.24				3	Pos		Pos			yes			Yes			Yes	Yes	Yes																
+313	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2022	53	M				2.2	normal	3.8	low	1.3	normal		5.2	normal										3	Pos		Pos						Yes			Yes	Yes																	
+314	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2023	29	M				2.7	normal	3.9	low	0.8	low		3.3	normal						0.1				3	Pos		Pos						Yes			Yes	Yes																	
+315	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2024	50	F		Yes		2.4	normal	4.3	low	1.3	normal		1.2	normal						0.4				3	Pos		Pos						Yes			Yes																		
+316	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2025	14	M		Yes		3	normal	5.2	normal	1.4	normal		5.1	normal										2	Pos		Pos						Yes																					
+317	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2026	56	F				8.8	high	9.9	normal	0.9	low		8.2	normal						0.3				3	Pos		Pos						Yes			Yes	Yes	Yes																
+318	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25755	A report of clinical diagnosis and treatment of nine cases of coronavirus disease 2027	51	F		Yes		4.2	normal	5.4	normal	0.9	low		110.2	high						0.14				2	Pos		Pos									Yes	Yes																	
+319	https://link.springer.com/article/10.1007%2Fs11684-020-0757-x	Combination of western medicine and Chinese traditional patent medicine in treating a family case of COVID-19	51	F	Wuhan		2	3.04	normal	5.93	normal	1.5	normal		57.8	high			0.12	4.13	113	0.03	10			3											Yes	Yes				Yes														
+320	https://link.springer.com/article/10.1007%2Fs11684-020-0757-x	Combination of western medicine and Chinese traditional patent medicine in treating a family case of COVID-20	27	F	Wuhan			2.12	normal	3.63	low	1.25	normal		9.4	normal			0.01	4.5	125	0.04	12			2											Yes	Yes		Yes		Yes														
+321	https://link.springer.com/article/10.1007%2Fs11684-020-0757-x	Combination of western medicine and Chinese traditional patent medicine in treating a family case of COVID-21	53	M	Wuhan																		13			2											Yes	Yes				Yes														
+322	https://academic.oup.com/cid/article/71/15/778/5810754	Profiling Early Humoral Response to Diagnose Novel Coronavirus Disease (COVID-19)	61	F	Wuhan	Yes	2																		10	1	Pos		Pos										Yes								38									
+323	https://academic.oup.com/cid/article/71/15/778/5810754	Profiling Early Humoral Response to Diagnose Novel Coronavirus Disease (COVID-19)	6	M		Yes	2																			1	neg		Pos																											
+324	http://www.annals.edu.sg/pdf/special/OA20057_GohKJ_3.pdf	Rapid Progression to Acute Respiratory Distress Syndrome: Review of Current Understanding of Critical Illness from COVID-19 Infection	64	M	Singapore	Yes				4.6	normal	0.23	low	147	87.9	high					14.1	0.55	23			1	Pos	1	Pos	Pos				2	Yes		Yes	Yes		Yes							39									
+325	https://wwwnc.cdc.gov/eid/article/26/5/20-0198_article	"Potential Presymptomatic Transmission of SARS-CoV-2, Zhejiang Province, China, 2020"	29	M	Zhoushan	Yes	2																		4				Pos									Yes	Yes		Yes		9													
+326	https://wwwnc.cdc.gov/eid/article/26/5/20-0198_article	"Potential Presymptomatic Transmission of SARS-CoV-2, Zhejiang Province, China, 2020"	28	F	Zhoushan	Yes	2																																																	
+327	https://journals.lww.com/thoracicimaging/Abstract/publishahead/A_Diabetic_Patient_With_2019_nCoV__COVID_19_.99445.aspx	A Diabetic Patient With 2019-nCoV (COVID-19) Infection Who Recovered and Was Discharged From Hospital	23	M	Wuhan	Yes					Normal	high			160	high										4					elevated blood glucose							Yes	Yes																	
+328	https://www.ncbi.nlm.nih.gov/pubmed/32182347	Perinatal Transmission of COVID-19 Associated SARS-CoV-2: Should We Worry?	34	F	Wuhan	No/ Wuhan				8.9	normal		low										NA			2	Neg				None				NA			Yes						Yes	No	No	37.4									
+329	https://www.ncbi.nlm.nih.gov/pubmed/32182347	Perinatal Transmission of COVID-19 Associated SARS-CoV-2: Should We Worry?	29	F	Wuhan	No/ Wuhan							low										30			1	Pos				None			4	NA			Yes			Yes			Yes	No	Yes	37.6									
+330	https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajt.15869	Perinatal Transmission of COVID-19 Associated SARS-CoV-2: Should We Worry?	52	M	Wuhan	No/ Wuhan			high			Low			30.2	high							21			3	Pos				Immunocompromised				Yes			Yes	Yes			Yes					37.5									
+331	https://link.springer.com/article/10.1007%2Fs12519-020-00356-2	Clinical features of pediatric patients with COVID-19: a report of two family cluster cases	15	M	Wuhan	No/ Wuhan				11.82	high		normal		34.64	high							2			1	Neg				None							Yes									37.9									
+332	https://link.springer.com/article/10.1007%2Fs12519-020-00356-2	Clinical features of pediatric patients with COVID-19: a report of two family cluster cases	9	M	Xiaogan	Yes				6.6	normal		high		3.49	normal							2			1	Neg				None						Yes																			
+333	https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiaa113/5807961	"A 55-Day-Old Female Infant Infected With 2019 Novel Coronavirus Disease: Presenting With Pneumonia, Liver Injury, and Heart Damage"	0.5	F	Guiyang	Yes			normal		Normal		High			Normal							30			3	Pos				None																									
+334	https://www.sciencedirect.com/science/article/pii/S1477893920300958?via%3Dihub	Clinical diagnostic value of CT imaging in COVID-19 with multiple negative RT-PCR testing	56	NA	Yan'an	No/ Wuhan					Normal		Normal			High							NA			2	Pos								Yes			Yes									39.1									
+335	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30607-3/fulltext	First known person-to-person transmission of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in the USA	65	F	Illinois	No/ Wuhan					Low		Low										30			0	Pos				None							Yes	Yes			Yes														
+336	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30607-3/fulltext	First known person-to-person transmission of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in the USA		M	Illinois	Yes					Low		Low										21			0	NA				Chronic obstructive pulmonary disease							No	Yes																	
+337	https://www.kjronline.org/DOIx.php?id=10.3348/kjr.2020.0181	2019 Novel Coronavirus (COVID-19) Pneumonia with Hemoptysis as the Initial Symptom: CT and Clinical Features	57	M	Hunan	Yes																	NA			4	Pos								Yes																					
+338	https://wwwnc.cdc.gov/eid/article/26/5/20-0198_article	"Potential Presymptomatic Transmission of SARS-CoV-2, Zhejiang Province, China, 2020"	42	M	Zhoushan	Yes																																Yes	Yes		Yes															
+339	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080035/pdf/259_2020_Article_4734.pdf	18F-FDG PET/CT findings of COVID-19: a series of four highly suspected cases	57	M	Wuhan	Yes			normal				normal		6.65	normal											Pos											Yes			Yes						39									
+340	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080035/pdf/259_2020_Article_4734.pdf	18F-FDG PET/CT findings of COVID-19: a series of four highly suspected cases	56	M	Wuhan	Yes		3.33					low		23.6	high																							Yes																	
+341	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080035/pdf/259_2020_Article_4734.pdf	18F-FDG PET/CT findings of COVID-19: a series of four highly suspected cases	61	F	Wuhan	Yes		3.47					normal																									Yes	Yes																	
+342	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080035/pdf/259_2020_Article_4734.pdf	18F-FDG PET/CT findings of COVID-19: a series of four highly suspected cases	48	F	Wuhan	Yes			normal 				normal		12.2	high																																								
+343	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-19	53	M	Zhengzhou	No/ Wuhan	7																															Yes	Yes								38									
+344	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-20		F	Zhengzhou	Yes																																Yes									37.5									
+345	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-21	28	M	Zhengzhou	Yes																																			Yes															
+346	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-22	34	M	Zhengzhou	Yes																																																		
+347	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-23	4	M	Zhengzhou																																		Yes																	
+348	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-24	28	F	Zhengzhou																																Yes				Yes						37.4									
+349	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-25	4	F	Zhengzhou																																	Yes									37.2									
+350	http://rs.yiigle.com/yufabiao/1183774.htm	Epidemiological analysis on a family cluster of COVID-26	32	F	Zhengzhou																																	Yes																		
+351	https://link.springer.com/article/10.1007%2Fs12630-020-01625-4	Profiling Early Humoral Response to Diagnose Novel Coronavirus Disease (COVID-19)	27	F																						2	Pos		Pos					4	Yes			Yes	Yes	Yes				Yes		Yes										
+352	https://smw.ch/article/doi/smw.2020.20231	Mimics and chameleons of COVID-19	83	M	Basel																																																			
+353	https://smw.ch/article/doi/smw.2020.20231	Mimics and chameleons of COVID-20	80	W	Basel																																		Yes	Yes																
+354	https://www.ncbi.nlm.nih.gov/pubmed/?term=32161941	A Case Report of Neonatal 2019 Coronavirus Disease in China	34	F	Wuhan	No/Wuhan		9.97	high			0.97	low		11.5	high													Pos		hypothyroidism						No	Yes	No			No	1	Yes		Yes	38.3									
+355	https://www.ncbi.nlm.nih.gov/pubmed/?term=32161941	A Case Report of Neonatal 2019 Coronavirus Disease in China	0	M	Wuhan	No/Wuhan						2.43	normal													3	Pos	1	Pos	Neg					Yes	Yes																				
+356	http://rs.yiigle.com/yufabiao/1183765.htm	COVID-19 complicated with DIC: 2 cases report and literatures review	78	F	Wuhan	No/Wuhan		2.09E+00	normal	3.52	low	7.30E-01	low	1.33E+02	108	high					137										coronary artery disease				Yes			No		Yes																
+357	http://rs.yiigle.com/yufabiao/1183765.htm	COVID-19 complicated with DIC: 2 cases report and literatures review	79	M	Wuhan	No/Wuhan		1.47E+01	high			3.20E-01	low	9.50E+02							137																	Yes									37.8									
+358	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30114-6/fulltext	Asymptomatic cases in a family cluster with SARS-CoV-2 infection	35	M	Guangzhou 	No/Wuhan	2		low				low												4				Pos									Yes		Yes																
+359	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30114-6/fulltext	Asymptomatic cases in a family cluster with SARS-CoV-2 infection	33	F	Guangzhou 	No/Wuhan	2		normal																				Pos							Yes																				
+360	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30114-6/fulltext	Asymptomatic cases in a family cluster with SARS-CoV-2 infection	3	M	Guangzhou 	No/Wuhan	2		normal																				Pos							Yes																				
+361	https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30076-X/fulltext	Pathological findings of COVID-19 associated with acute respiratory distress syndrome	50	M	Beijing	No/Wuhan																		12	6				Pos									Yes	Yes								39									
+362	https://www.sciencedirect.com/science/article/pii/S1477893920300879?via%3Dihub	Positive result of Sars-Cov-2 in sputum from a cured patient with COVID-19	49	M		No/Wuhan																				1	Pos		Pos						Yes			Yes																		
+363	https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30111-0/fulltext	The first Vietnamese case of COVID-19 acquired from China	25	W	Vietnam	No/Wuhan		3.7	normal					185	6.6	normal				4.28	127				6													Yes	Yes				6													
+364	http://rs.yiigle.com/yufabiao/1183280.htm	Pregnant women with new coronavirus infection: a clinical characteristics and placental pathological analysis of three cases	23	F	Wuhan	No/Wuhan				1.18	low	1.14E+00	normal		87.93	high										1	Pos											Yes		Yes		No		Yes	No		38.7									
+365	http://rs.yiigle.com/yufabiao/1183280.htm	Pregnant women with new coronavirus infection: a clinical characteristics and placental pathological analysis of three cases	34	F	Wuhan	No/Wuhan				9.54	normal	1.00E+00	low		26.08	high										1	Pos											No				No		Yes	No											
+366	http://rs.yiigle.com/yufabiao/1183280.htm	Pregnant women with new coronavirus infection: a clinical characteristics and placental pathological analysis of three cases	32	F	Wuhan	No/Wuhan				10.2	normal	1.08E+00	normal		104.3	high										1	Pos											No				No		Yes	No											
+367	https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25732	"Co?infection of SARS?CoV?2 and HIV in a patient in Wuhan city, China"	61	M	Wuhan	No/Wuhan						0.56	low										19			1	Pos		Pos		diabetes	yes			Yes			Yes	Yes	Yes			5				39									
+368	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	62	F	Sichuan		NA	NA				1.74	normal		9.56	High											Pos										Yes	No	Yes									0.355	27	4.04	4.19	Yes				
+369	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	45	F	Sichuan		NA	NA				0.901	low		22.56	High											Pos										No	Yes	Yes									0.371	34.6	4.33	2.7	Yes				
+370	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	59	F	Sichuan		NA	NA				1.056	normal		24.6	High											Pos										No	Yes	Yes									0.331	34.2	4.75	2.86	No				
+371	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	33	F	Sichuan		NA	NA				1.52	normal		37.13	high											Pos										No	Yes	No									0.308	33.2	2.49	2.7	No				
+372	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	34	M	Sichuan		NA	NA				NA			NA												Pos										No	Yes	No										39	3.59	3.89	No				
+373	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	43	M	Sichuan		NA	NA				NA			9.46	High											Pos										No	Yes	Yes										29.1	4.03	3	Yes				
+374	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	26	M	Sichuan		NA	NA				0.9	low		20.24	High											Pos										No	Yes	Yes									0.137	37.7	3.69	3	Yes				
+375	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	18	F	Sichuan		NA	NA				1.97	normal		0.94	normal											Pos										No	Yes	No									0.36	30.5	2.34	4.1	No				
+376	https://www.ijidonline.com/article/S1201-9712(20)30108-9/fulltext	Comparison of different samples for 2019 novel coronavirus detection by nucleic acid amplification tests	25	M	Sichuan		NA	NA				0.49	low		22.66	High											Neg										No	Yes	Yes									0.38	33.4	3.91	3.9	No				
+377	https://wwwnc.cdc.gov/eid/article/26/6/20-0299_article	"Co-infection with SARS-CoV-2 and Influenza A Virus in Patient with Pneumonia, China"	69	M		No/Wuhan				8.23	normal	0.77	low													1	Pos		Neg		influenza				Yes			Yes		Yes																
+378	https://www.ncbi.nlm.nih.gov/pubmed/?term=32157862	CT Manifestations of Novel Coronavirus Pneumonia: A Case Report	50	F		No/Wuhan				11.1	high	1.28	normal		15.1	high							5			2	Pos	1	Pos	Pos					Yes		Yes	Yes	Yes				0				39.2									
+379	https://www.jto.org/article/S1556-0864(20)30132-5/fulltext	Pulmonary Pathology of Early-Phase 2019 Novel Coronavirus (COVID-19) Pneumonia in Two Patients With Lung Cancer	84	F		Yes				12.49	high	0.4	low						0.01												"Hypertension, diabetes"				Yes			No	Yes	Yes													2.5	0.26	Yes	
+380	https://www.jto.org/article/S1556-0864(20)30132-5/fulltext	Pulmonary Pathology of Early-Phase 2019 Novel Coronavirus (COVID-19) Pneumonia in Two Patients With Lung Cancer	73	M																											Hypertension 				Yes			Yes	Yes																Yes	
+381	https://www.sciencedirect.com/science/article/pii/S0929664620300449	First case of Coronavirus Disease 2019 (COVID-19) pneumonia in Taiwan	55	F	Taiwan	No/Wuhan																									hyperthyroidism				Yes			Yes	Yes	Yes	Yes															
+382	https://www.ijidonline.com/article/S1201-9712(20)30101-6/fulltext	2019-novel Coronavirus severe adult respiratory distress syndrome in two cases in Italy: An uncommon radiological presentation	66	F	Wuhan	No/Wuhan	1																								Hypertension				Yes			Yes	Yes	Yes																
+383	https://www.ijidonline.com/article/S1201-9712(20)30101-6/fulltext	2019-novel Coronavirus severe adult respiratory distress syndrome in two cases in Italy: An uncommon radiological presentation	67	M	Wuhan	No/Wuhan	1																												Yes			Yes	Yes	Yes																
+384	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa201/5766416	A Well Infant With Coronavirus Disease 2019 With High Viral Load	0.5	M	Singapore	No	3	0.9	low																											Yes																				
+385	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa201/5766416	A Well Infant With Coronavirus Disease 2019 With High Viral Load		M	Singapore	No	3																															Yes			Yes															
+386	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa201/5766416	A Well Infant With Coronavirus Disease 2019 With High Viral Load		F	Singapore	No	5	1.2	low	2.6	low																											Yes	Yes																	106
+387	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	7	M	Shanghai	Yes	1	11.2	high	16	high	3.2	normal	138	15	high					12.8	0.07																Yes	Yes												3.7					
+388	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	10.917	F	Shanghai	Yes	1	3.4	normal	5.9	normal	1.7	normal	184	8	normal					14.2	0.03																Yes			Yes										4.1					
+389	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	10.917	F	Shanghai	No		3.2	normal	6.7	normal	1.2	normal	211	16	high					13	0.08																Yes	Yes		Yes										3.2					
+390	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	9	M	Shanghai	Yes		1.1	low	3.2	low	1.7	normal	312	35	high					15.2	0.07																Yes	Yes		Yes										3.2					
+391	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	0.583	F	Shanghai	Yes	1	2	normal	8	normal	5.1	high	188	8	normal					11.3	0.12																	Yes												1.9					
+392	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	6	F	Qingdao	Yes	1	1.6	normal	6	normal	3.7	normal	186	7	normal					13	0.03																Yes													3.8					
+393	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	0.25	F	Haikou	No		4.2	normal	9.7	normal	4.2	normal	494	5.6	normal					12.3	0.07																Yes													0.5					
+394	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	4	F	Sanya	Yes		1.3	low	5.4	normal	3.6	normal	311	0.5	normal					13.1	0.02																	Yes												2.6					
+395	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	8	M	Sanya	Yes	1	8.07	high	11.9	high	2.1	normal	357	3.1	normal					12.1	0.05																Yes			Yes										3					
+396	https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430	A Case Series of Children With 2019 Novel Coronavirus Infection: Clinical and Epidemiological Features	5	M	Hefei	Yes	1	7.4	normal	12.5	high	3.3	normal	266	4.8	normal					14.4	0.09																Yes	Yes												3					
+397	https://www.sciencedirect.com/science/article/pii/S1684118220300372	"2019 novel coronavirus disease (COVID-19) in Taiwan: Reports of two cases from Wuhan, China"	74	F	Taiwan	No/Wuhan																																Yes																		
+398	https://www.sciencedirect.com/science/article/pii/S1684118220300372	"2019 novel coronavirus disease (COVID-19) in Taiwan: Reports of two cases from Wuhan, China"	73	F	Taiwan	No/Wuhan																																Yes	Yes			No														
+399	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	65	F				3.13	normal	4.31	normal	0.88	low	161	52.6	high						0.048									Heart Disease						No	Yes	Yes			Yes														
+400	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	66	M				3.53	normal	5.24	normal	1.21	normal	118	38.6	high						0.04									Heart Disease						No	Yes	Yes			No														
+401	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	62	M				2.26	normal	3.85	normal	0.83	low	121	52.95	high						0.095									"Heart Disease,Renal Disease"						Yes	Yes	Yes			No														
+402	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	63	M				6.31	high	6.79	normal	0.26	low	119	89.94	high						9.18									Lung Disease						No	Yes	Yes			No														
+403	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	63	F				5.43	normal	6.71	normal	0.77	low	215	53.6	high						0.031									No						No	Yes	Yes			Yes														
+404	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	36	M				10.49	high	13.55	high	2.37	normal	250	5.8	normal						0.02									No						Yes	Yes	Yes			No														
+405	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	10	M				2.26	normal	6.722	normal	3.79	high	196	5	normal						0.02									No						No	No	No			No														
+406	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	35	M				2.62	normal	4.62	normal	1.59	normal	236	35.6	high						0.029									No						No	Yes	Yes			No														
+407	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	51	M				3.18	normal	4.94	normal	1.45	normal	184	13	high						0.02									No						No	No	Yes			Yes														
+408	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	65	F				5.35	normal	5.89	normal	0.42	low	118	33.2	high						0.077									Diabetes						No	Yes	Yes			No														
+409	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	72	M				3.73	normal	4.99	normal			99	85	high						0.218									"Heart Disease,Renal Disease"						No	Yes	Yes			No														
+410	https://link.springer.com/content/pdf/10.1007/s11427-020-1643-8.pdf	Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury	56	F				3	normal	3.98	normal	0.83	low	152	28.4	high						0.033									Diabetes						No	Yes	Yes			No														
+411	https://link.springer.com/article/10.1007%2Fs00247-020-04656-7	Chest computed tomography in children with COVID-19 respiratory infection	1.4							9.2	normal				9.4	normal																																								
+412	https://link.springer.com/article/10.1007%2Fs00247-020-04656-7	Chest computed tomography in children with COVID-19 respiratory infection	0.83							14.8	high				0.9	normal																																								
+413	https://link.springer.com/article/10.1007%2Fs00247-020-04656-7	Chest computed tomography in children with COVID-19 respiratory infection	3							15	high				0.7	normal																																								
+414	https://link.springer.com/article/10.1007%2Fs00247-020-04656-7	Chest computed tomography in children with COVID-19 respiratory infection	4							6.6	normal				0.2	normal																																								
+415	https://link.springer.com/article/10.1007%2Fs00247-020-04656-7	Chest computed tomography in children with COVID-19 respiratory infection	6							5.3	normal				0.6	normal																																								
+			27	17	91	164	345	295	282	279	239	264	235	356	261	249	408	408	400	405	385	375	310	397	370	278	263	358	304	354	322	398	408	383	309	387	342	123	210	333	346	374	361	343	367	389	342	401	399	399	389	395	407	407	406	407
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
+																																																								
