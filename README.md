@@ -1,6 +1,6 @@
 # COVID19ML
-Dependencies for  XGBoost includes: \n
-xgboost \n
+Dependencies for  XGBoost includes: <br />
+xgboost <br />
 pandas
 sklearn
 bayes_opt
