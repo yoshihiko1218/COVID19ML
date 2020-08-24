@@ -1,4 +1,4 @@
-# Classificaiton of COVID19 and influenza patients
+# Classification of COVID19 and influenza patients
 
 Use XgBoost_COVIDandFLUWithoutNan.ipynb to run classification between COVID-19 and influenza paitents. <br />
 Raw input file required is UsedCombined.txt  <br />
@@ -10,7 +10,7 @@ Raw input file required is LiteratureSearchDataindividualpatients.tsv <br />
 Use covidRF.R and covidRidgeLAsso.R for classification between COVID-19 and influenza patients using random forest, RIDGE, or LASSO regression. <br />
 Raw input file required is COVIDandFLUdata.csv <br />
 
-Dependencies for  XGBoost includes: <br />
+Dependencies for  XGBoost include: <br />
 xgboost <br />
 pandas <br />
 sklearn <br />
@@ -20,10 +20,10 @@ matplotlib <br />
 scikitplot <br />
 graphviz <br />
 
-Dependencies for SOM includes: <br />
+Dependencies for SOM include: <br />
 SOMbrero <br />
 
-Dependencies for RIDGE, LASSO, and random forest includes: <br />
+Dependencies for RIDGE, LASSO, and random forest include: <br />
 glmnet <br />
 pROC <br />
 randomForest <br />
