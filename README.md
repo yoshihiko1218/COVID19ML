@@ -1,6 +1,6 @@
 # COVID19ML
-Dependencies for Clustering
-xgboost
+Dependencies for  XGBoost includes: \n
+xgboost \n
 pandas
 sklearn
 bayes_opt
